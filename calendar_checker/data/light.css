@@ -1,0 +1,168 @@
+/*light theme*/
+
+#mediaServerImageDisplay,#mediaServerImageDisplay QWidget {
+    background-color: #888888;
+}
+#visibilityPropertyPushbutton {
+    background-color: rgb(200,255,200);
+}
+#visibilityOptionPushbutton {
+    background-color: rgb(222,222,211);
+}
+#visibilityLayersetPushbutton {
+    background-color: rgb(255,255,211);
+}
+#visibilityMaterialScheme3dPushbutton {
+    background-color: rgb(211,222,255);
+}
+#visibilityMaterialScheme2dPushbutton {
+    background-color: rgb(255,222,211);
+}
+#visibilityShowcaseAlternativePushbutton {
+    background-color: rgb(255,222,255);
+}
+#visibilityTransformationSetPushbutton {
+    background-color: rgb(255,214,173);
+}
+#visibilityMjAjFlagsPushbutton {
+    background-color: rgb(255,222,222);
+}
+#visibilityMarketsPushbutton {
+    background-color: rgb(255,255,255);
+}
+#expandAllButton, #collapseAllButton {
+    max-width: 55px;
+}
+#expandAllButton {
+    max-width: 50px;
+}
+#JsonEditorMainTitle{
+    font-size: 30px;
+    margin-bottom: 10px;
+    qproperty-alignment: AlignCenter;
+}
+#JsonEditorTitle {
+    font-size: 20px;
+}
+
+#AttributeEditor{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#AttributeEditor QLineEdit{
+    background-color: #f0f0f0;
+    font-size: 13px;
+    margin-top: 7px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: #000000;
+
+}
+#AttributeEditor QLineEdit:disabled{
+    border-color: #969696;
+}
+
+#AttributeEditorLabel {
+    font-size: 13px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+}
+
+#AttributeEditor QGroupBox {
+    background-color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0.75em;
+    padding-top: 0px;
+}
+#AttributeEditor QGroupBox::title {
+    subcontrol-origin: border;
+    left: 6px;
+    bottom: 20px;
+    padding: 2px 3px 0 3px;
+}
+
+#AttributeEditor QCheckBox {
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#AttributeEditor QSpinBox {
+    background-color: #f0f0f0;
+    font-size: 13px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: #000000;
+}
+#AttributeEditor QSpinBox::up-button {
+    border: none;
+}
+#AttributeEditor QSpinBox::down-button {
+    border: none;
+}
+#AttributeEditor QSpinBox::up-arrow {
+    image: url("{{THEME_PATH}}/dark/icons/combobox_up-arrow_inactive.png");
+}
+#AttributeEditor QSpinBox::down-arrow {
+    image: url("{{THEME_PATH}}/dark/icons/combobox_down-arrow_inactive.png");
+}
+#AttributeEditor QSpinBox:disabled {
+    border-color: #969696;
+}
+
+#AttributeEditor QComboBox {
+    background-color: #f0f0f0;
+    font-size: 13px;
+    border: 1px;
+    border-style: none none solid none;
+    border-color: #000000;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+#AttributeEditor QComboBox::drop-down {
+    border: none;
+}
+#AttributeEditor QComboBox::down-arrow {
+    image: url("{{THEME_PATH}}/dark/icons/combobox_down-arrow_inactive.png");
+}
+#AttributeEditor QComboBox::down-arrow:focus {
+    border: 1px;
+    border-style: dotted;
+    border-color: #000000;
+}
+#AttributeEditor QComboBox:disabled {
+    border-color: #969696;
+}
+
+
+QMainWindow::separator {
+    /* background: yellow; */
+    width: 3px; /* when vertical */
+    height: 3px; /* when horizontal */
+}
+
+
+QMainWindow::separator:hover {
+    background: #888888;
+}
+
+QSplitter::handle {
+    image: url("{{THEME_PATH}}/light/icons/splitter_handler.png");
+}
+
+/*
+ChosenOptionsView
+
+Do not modify item subcontrol values via stylesheet for the ChosenOptionsView
+as the appearance of items is controlled through a ChosenOptionsDelegate.
+*/
+
+ChosenOptionsView::indicator:checked {
+    image: url("{{THEME_PATH}}/light/icons/invisible.png");
+}
+ChosenOptionsView::indicator:unchecked {
+    image: url("{{THEME_PATH}}/light/icons/invisible.png");
+}
