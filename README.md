@@ -13,10 +13,6 @@ Latest docs and exe can be found in artifacts of last ci run.
 - content of requirements.txt
 
 ## installation 
-on https://github.com/JackWolf24/Day choose a version (different branches)
-
-`git clone --single-branch --branch <branchname> https://github.com/JackWolf24/Daily-agenda.git`
-
 
 in your terminal:
 
