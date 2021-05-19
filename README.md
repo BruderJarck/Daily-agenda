@@ -13,15 +13,11 @@ Latest docs and exe can be found in artifacts of last ci run.
 - content of requirements.txt
 
 ## installation 
-on https://github.com/JackWolf24/Day choose a version (different branches)
-
-`git clone --single-branch --branch <branchname> https://github.com/JackWolf24/Daily-agenda.git`
-
 
 in your terminal:
 
   ```
-  git clone https://github.com/JackWolf24/ithilfe.git
+  git clone https://github.com/JackWolf24/Daily-agenda.git
   ```
   
   cd in repo
@@ -32,20 +28,14 @@ in your terminal:
   
   ## build exe
 
-  cd into ithilfe/
+  cd into daily_agenda/
   
   ```
-  pyinstaller it_hilfe.spec
+  pyinstaller daily_agenda.spec
   ```
   
   after process beeing finished, the exe file is located in 
   
   ```
-  ithilfe/dist
+  daily_agenda/dist
   ```
-  
-  the latest exe ci built can be found: 
-  ```
-  actions/Ci/<last workfolwrun> 
-  ```
-  scroll down to find artifacts
